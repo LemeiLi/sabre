@@ -1,0 +1,28 @@
+{
+    "cam_param": {
+        "cam_type": "IMX390",
+        "cam_hdr_param": [
+            {
+                "camera_shutter_0": 6,
+                "camera_shutter_1": 15,
+                "camera_shutter_2": 26,
+                "camera_shutter_3": 200,
+                "camera_gain_0": 14,
+                "camera_gain_1": 18,
+                "camera_gain_2": 40,
+                "camera_gain_3": 70
+            }
+        ],
+        "is_auto_frame_rate": false,
+        "frame_rate": 15,
+        "is_auto_shutter": true,
+        "shutter_time_us": 1000,
+        "is_trigger": false,
+        "HDRMode": 0
+    },
+    "image_data_channel": {
+        "protocal": "tcp",
+        "ip": "10.0.0.2",
+        "port": 5678
+    }
+}

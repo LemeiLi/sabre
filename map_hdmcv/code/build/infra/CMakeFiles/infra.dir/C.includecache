@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/3dparty/zlog/zlog.h
+stdarg.h
+-
+stdio.h
+-
+
+../inc/infra/log/log.h
+3dparty/zlog/zlog.h
+../inc/infra/log/3dparty/zlog/zlog.h
+
+../inc/infra/stream/persistence.h
+stdlib.h
+-
+
+/home/lijianhua/map_hdmcv/code/infra/stream/persistence.c
+stdio.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+errno.h
+-
+string.h
+-
+stdint.h
+-
+infra/log/log.h
+/home/lijianhua/map_hdmcv/code/infra/stream/infra/log/log.h
+infra/stream/persistence.h
+/home/lijianhua/map_hdmcv/code/infra/stream/infra/stream/persistence.h
+

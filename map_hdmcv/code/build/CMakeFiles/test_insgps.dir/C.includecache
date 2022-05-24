@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/uil/uil_insgps.h
+stdint.h
+-
+sys/time.h
+-
+
+/home/lijianhua/map_hdmcv/code/test/test_insgps.c
+stdio.h
+-
+sys/time.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+string.h
+-
+uil/uil_insgps.h
+/home/lijianhua/map_hdmcv/code/test/uil/uil_insgps.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbll_static.a  CMakeFiles/bll_static.dir/bll.c.o CMakeFiles/bll_static.dir/bll_image.c.o CMakeFiles/bll_static.dir/bll_insgps.c.o CMakeFiles/bll_static.dir/bll_lidar.c.o CMakeFiles/bll_static.dir/parse_image_config.c.o CMakeFiles/bll_static.dir/parse_insgps_config.c.o CMakeFiles/bll_static.dir/parse_lidar_config.c.o
+/usr/bin/ranlib libbll_static.a

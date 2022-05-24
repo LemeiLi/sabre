@@ -1,0 +1,11 @@
+{
+    "version": "V1.1.181115",
+    "car_id": "H7",
+    "device_id": "v0.4",
+    "camera_num": 1,
+    "camera0_version": "mapsh.?mmF??.fix.12",
+    "ins_version": "GI7660F01.718d.Single.v2.2.1.WithRawimu",
+    "ipc_version": "yanhua.x86_64.Ubuntu-16-04-2-LTS",
+    "parameter_version": "V1.0.181016",
+    "collection_software_version": "V1.0.934r34"
+}

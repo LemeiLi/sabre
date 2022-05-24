@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuil_static.a  CMakeFiles/uil_static.dir/uil_image.c.o CMakeFiles/uil_static.dir/uil_insgps.c.o CMakeFiles/uil_static.dir/uil_lidar.c.o
+/usr/bin/ranlib libuil_static.a

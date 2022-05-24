@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Wextra  -O3  -rdynamic CMakeFiles/test_image.dir/test/test_image.c.o  -o test_image -Wl,-rpath,/home/lijianhua/map_hdmcv/code/build: libhal.so.1.0.0 -lpthread 

@@ -1,0 +1,28 @@
+{
+	"insgps_param": {
+		"insgps_type": "XW-GI7660",
+		"insgps_conf": "insgps.conf",
+		"list_com": [
+			{
+				"dev": "/dev/ttyS0",
+				"data": ["gpgga"],
+				"baudrate": 115200
+			},
+		    {
+				"dev": "/dev/ttyS5",
+				"data": ["gpfpd"],
+				"baudrate": 230400
+		    },
+		    {
+				"dev": "/dev/ttyS1",
+				"data": ["raw_data"],
+				"baudrate": 115200
+		    },
+		    {
+				"dev": "/dev/ttyS6",
+				"data": ["gpgga_lidar"],
+				"baudrate": 9600
+		    }
+		]
+	}
+}

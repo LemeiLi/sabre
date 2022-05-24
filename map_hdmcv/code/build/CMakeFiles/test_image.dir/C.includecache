@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/infra/stream/persistence.h
+stdlib.h
+-
+
+../inc/uil/uil_image.h
+stdint.h
+-
+sys/time.h
+-
+
+/home/lijianhua/map_hdmcv/code/test/test_image.c
+stdio.h
+-
+sys/time.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+stdint.h
+-
+uil/uil_image.h
+/home/lijianhua/map_hdmcv/code/test/uil/uil_image.h
+infra/stream/persistence.h
+/home/lijianhua/map_hdmcv/code/test/infra/stream/persistence.h
+

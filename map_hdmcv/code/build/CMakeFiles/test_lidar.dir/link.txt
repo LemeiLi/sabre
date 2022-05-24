@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Wextra  -O3  -rdynamic CMakeFiles/test_lidar.dir/test/test_lidar.c.o  -o test_lidar -Wl,-rpath,/home/lijianhua/map_hdmcv/code/build: libhal.so.1.0.0 -lpthread -lpcap 

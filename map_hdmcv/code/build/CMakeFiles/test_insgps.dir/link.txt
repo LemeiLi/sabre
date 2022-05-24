@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Wextra  -O3  -rdynamic CMakeFiles/test_insgps.dir/test/test_insgps.c.o  -o test_insgps -Wl,-rpath,/home/lijianhua/map_hdmcv/code/build: libhal.so.1.0.0 -lpthread 

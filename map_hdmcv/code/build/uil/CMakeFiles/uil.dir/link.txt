@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Wall -Wextra  -O3  -shared -Wl,-soname,libuil.so -o libuil.so CMakeFiles/uil.dir/uil_image.c.o CMakeFiles/uil.dir/uil_insgps.c.o CMakeFiles/uil.dir/uil_lidar.c.o -Wl,-rpath,/home/lijianhua/map_hdmcv/code/build/bll:/home/lijianhua/map_hdmcv/code/build/dal:/home/lijianhua/map_hdmcv/code/build/infra ../bll/libbll.so ../dal/libdal.so ../infra/libinfra.so -lpthread 

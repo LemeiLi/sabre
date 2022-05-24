@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Wall -Wextra  -O3  -shared -Wl,-soname,libbll.so -o libbll.so CMakeFiles/bll.dir/bll.c.o CMakeFiles/bll.dir/bll_image.c.o CMakeFiles/bll.dir/bll_insgps.c.o CMakeFiles/bll.dir/bll_lidar.c.o CMakeFiles/bll.dir/parse_image_config.c.o CMakeFiles/bll.dir/parse_insgps_config.c.o CMakeFiles/bll.dir/parse_lidar_config.c.o 

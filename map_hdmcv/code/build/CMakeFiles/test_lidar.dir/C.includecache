@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/uil/uil_lidar.h
+stdint.h
+-
+sys/time.h
+-
+
+/home/lijianhua/map_hdmcv/code/test/test_lidar.c
+stdio.h
+-
+sys/time.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+pcap.h
+-
+string.h
+-
+stdint.h
+-
+uil/uil_lidar.h
+/home/lijianhua/map_hdmcv/code/test/uil/uil_lidar.h
+
